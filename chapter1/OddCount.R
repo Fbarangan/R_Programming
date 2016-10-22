@@ -9,9 +9,29 @@ k <- 0
 # for loop
         for (n in x) {
                   # %% is a modular operation
-                if (n %% 2 == 1) 
-                   k <- k + 1     
-        }                
-        return(k)        
-        
+                if (n %% 2 == 1)
+                   k <- k + 1
+        }
+        return(k)
+
 }
+
+# Sample Global Varaible
+f <- function(x)
+        return (x + y)
+y <- 3
+
+# here y is the global variable
+
+#Defaul arguments
+  # g <- function(x, y=2, z=T)
+
+# String manipulation
+u <- paste("abc","de","f")
+
+# Split the string according to blanks
+v <- strsplit(u,  " ")  # the more space you put in between "" will determine the results
+v
+
+# Matrices
+
