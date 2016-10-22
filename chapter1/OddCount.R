@@ -35,3 +35,9 @@ v
 
 # Matrices
 
+#   see  https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/v/matrix-multiplication-intro
+#
+m <- rbind(c(2,-2), c(5,3))
+n <- rbind(c(-1,4), c(7, -6))
+m %*% n
+
