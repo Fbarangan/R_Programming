@@ -41,3 +41,12 @@ m <- rbind(c(2,-2), c(5,3))
 n <- rbind(c(-1,4), c(7, -6))
 m %*% n
 
+examQuiz <- rbind(c(2.0,3.3,4.0),
+                  c(3.3,2.0,3.7),
+                  c(4.0,4.3,4.0),
+                  c(2.3,0.0,3.3)
+                  )
+
+lma <- lm(examQuiz[,2] ~ examQuiz[,1])
+lma_all <-  lm( examQuiz[,2] ~ examQuiz[,1] + examQuiz[,3])
+
